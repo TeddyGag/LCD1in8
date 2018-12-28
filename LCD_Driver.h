@@ -41,19 +41,19 @@ enum LCD_COLOR {
 
 enum DOT_PIXEL{
     DOT_PIXEL_1 = 1,
-    DOT_PIXEL_2,
-    DOT_PIXEL_3,
-    DOT_PIXEL_4
+    DOT_PIXEL_2 = 2,
+    DOT_PIXEL_3 = 3,
+    DOT_PIXEL_4 = 4
 };
 
 enum LINE_STYLE {
     LINE_SOLID = 0,
-    LINE_DOTTED,
+    LINE_DOTTED = 1,
 };
 
 enum DRAW_FILL {
     DRAW_EMPTY = 0,
-    DRAW_FULL,
+    DRAW_FULL = 1,
 };
 
 class LCD_Driver{
